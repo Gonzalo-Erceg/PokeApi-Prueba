@@ -11,6 +11,11 @@ git clone https://github.com/Gonzalo-Erceg/PokeApi-Prueba.git
 ```shell
 npm install
 ```
-- Una vez con todas las dependencias instaladas se ejecutara la App de electron
+- Una vez con todas las dependencias instaladas se ejecutara la App de electron.
+
+```shell
+npm run dev
+```
+
 ![PokeApi](./public//img.png)
 
