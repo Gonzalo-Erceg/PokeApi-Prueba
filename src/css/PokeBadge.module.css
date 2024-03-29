@@ -1,0 +1,9 @@
+.pokeBadge{
+    font-family: "Pixelify Sans", monospace,system-ui;
+    font-size:16px ;
+    color:#fefefe;
+    padding:5px 20px;
+    border-radius: 10px;
+    letter-spacing: 2px
+
+}

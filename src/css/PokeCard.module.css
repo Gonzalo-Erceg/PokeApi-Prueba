@@ -1,0 +1,45 @@
+.pokeCard{
+    
+    border-radius: 5px;
+    padding: 10px;
+    font-size:18px;
+    width: 300px;
+    box-sizing: content-box;
+    box-shadow: 8px 11px 15px -3px rgba(0,0,0,0.1);
+}
+
+.pokeCard h2{
+    margin: 0;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+.pokeCard p{
+    margin:0
+}
+.imgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.infoContainer{
+    background-color: #fff;
+    padding: 5px;
+    border-radius:10px;
+}
+.abilities{
+   word-wrap: break-word;
+}
+.badgeSection{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pokeCardInfo{
+    display: flex;
+    flex-direction: column;
+}

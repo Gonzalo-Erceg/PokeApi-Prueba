@@ -1,0 +1,86 @@
+.pokeCardSection{
+    margin-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px
+}
+
+.pokeCardSection img{
+    width:200px;
+    image-rendering: pixelated;
+}
+
+.types{
+    text-align: center;
+}
+.types > span{
+    
+    font-size: 16px;
+}
+.typeList{
+    max-width: 1320px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    list-style: none;
+    display: flex; 
+    flex-wrap: wrap;
+    gap:20px;
+   justify-content: center;
+}
+
+.typeList button{
+    border:none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Pixelify Sans", monospace,system-ui;
+    font-size:16px ;
+    color:#fefefe;
+    padding:5px 20px;
+    border-radius: 10px;
+    letter-spacing: 2px
+}
+
+.typeList button:focus{
+    outline: 4px double #000;
+}
+.loaderContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:30px;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #313131;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border-left: 4px solid #FF3D00;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
